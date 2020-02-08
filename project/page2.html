@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="proj.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="myscript.js">
+</script>
+</head>
+<body>
+<form name="myForm" action="" onsubmit="return validateForm()" method="">
+<div class="header">
+  <a href="#" style="text-decoration: none; font-size:25px;">truYum</a>
+    <a href="#"><i class="fa fa-cutlery" aria-hidden="true"></i></a>
+  <div class="header-right">
+    
+    <a href="#" style="padding-right:40px;">Menu</a>
+  </div>
+</div>
+	<div style="padding-left:40px;padding: 5px 40px;
+  border: none;
+  width: 100%;
+  height: 500px;" >
+	<div ><h2>Edit Menu Items</h2>
+		<table border=0>
+		<tr>Name</tr><br>
+		<tr><input type="text" name="name" style="width:478;" ></tr><br><br>
+		<tr>
+			<td style="width:100;">Price(Rs.)</td>
+			<td style="width:120;">Active</td>
+			<td style="width:150;">Date of Launch</td>
+			<td style="width:130;">Category</td>
+		</tr>
+		<tr>
+			<td><input type="text" name="price" style="width:90;" ></td>
+			<td><input type="radio" name="active" checked>Yes
+				<input type="radio" name="active">No
+			</td>
+			<td><input type="text" name="date" placeholder="dd/mm/yyyy" style="width:120;" ></td>
+			<td><select>
+				<option>Starters</option>
+				<option>Main Course</option>
+				<option>Dessert</option>
+				<option>Drink</option>
+			</select>
+			</td>
+			</table>
+			<br><input type="checkbox" name="fd" checked>FreeDelivery
+	<br><br><button type="submit" class="button">save</button>
+	</div>
+	<div  class="footer">
+	<footer>Copyright@2019</footer>
+	</div>
+
+</form>
+</body>
+</html>

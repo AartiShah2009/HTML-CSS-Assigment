@@ -1,0 +1,25 @@
+#header{
+			 background-color: blue;
+  color: white;
+padding: 5px 40px;
+  border: none;
+  width: 100%;
+  height: 8%;
+			}
+		#body{
+			  background-color: whiet;
+  color:black;
+  padding: 5px 40px;
+  border: none;
+  width: 100%;
+  height: 500px;
+
+		}
+		#foot{
+			 background-color: grey;
+  color: white;
+padding: 5px 40px;
+  border: none;
+  width: 100%;
+  height: 8%;
+			}
